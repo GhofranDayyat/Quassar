@@ -1,0 +1,31 @@
+// app global css in SCSS form
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-center {
+    align-items: center;
+}
+
+.j-between{
+    // display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+
+
+}
